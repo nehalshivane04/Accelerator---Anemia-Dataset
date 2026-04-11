@@ -1,4 +1,5 @@
-# Anemia screening from peripheral blood smearsComputer-aided **screening** (healthy vs anemic) from peripheral blood smear images using deep learning and handcrafted morphology/texture features. **Not a medical device** — not for diagnosis; clinical use requires validation and regulatory clearance.
+# Anemia screening from peripheral blood smears
+# Computer-aided **screening** (healthy vs anemic) from peripheral blood smear images using deep learning and handcrafted morphology/texture features. **Not a medical device** — not for diagnosis; clinical use requires validation and regulatory clearance.
 ## What this project does
 - Loads PBS images from a fixed folder layout (main track: **AneRBC-II**).
 - Trains a **ResNet18** CNN baseline and a **hybrid model** that fuses CNN embeddings with a **14-dimensional** handcrafted vector (morphology, GLCM texture, color/pallor-style scalars).
